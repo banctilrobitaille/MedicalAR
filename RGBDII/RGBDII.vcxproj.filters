@@ -13,10 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Fichiers sources\Application">
+      <UniqueIdentifier>{8952e19e-afb3-41ac-b812-5fc3b1fce4e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Application">
+      <UniqueIdentifier>{605a198e-da2a-43e3-8a87-8576be23bab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\ImageUtils">
+      <UniqueIdentifier>{8d52f02e-f16c-4b85-bfc0-90cf56263454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\ImageUtils">
+      <UniqueIdentifier>{6d8c22dd-1b58-4779-8059-567701d1728c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Fichiers sources</Filter>
+    <ClCompile Include="src\Application\main.cpp">
+      <Filter>Fichiers sources\Application</Filter>
     </ClCompile>
+    <ClCompile Include="src\Application\Utils\ImageUtils.cpp">
+      <Filter>Fichiers sources\ImageUtils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes\Utils\ImageUtils.h">
+      <Filter>Fichiers d%27en-tête\ImageUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Application\main.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Application\Utils\ImageUtils.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
