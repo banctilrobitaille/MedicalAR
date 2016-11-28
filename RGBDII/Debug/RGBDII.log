@@ -1,14 +1,17 @@
-﻿Build started 2016-11-26 18:43:57.
-     1>Project "C:\Users\Benoit\Desktop\ETS\TUM\Medical AR\Exercise\medicalAR-RGBDII\RGBDII\RGBDII.vcxproj" on node 2 (Build target(s)).
+﻿Build started 2016-11-28 13:29:39.
+     1>Project "C:\Users\Benoit\Desktop\ETS\TUM\Medical AR\MedicalAR\RGBDII\RGBDII.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (RGBDII.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\opencv\build\include /I"C:\Users\Benoit\Desktop\ETS\TUM\Medical AR\Exercise\medicalAR-RGBDII\RGBDII\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\Application\main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\opencv\build\include /I"C:\Users\Benoit\Desktop\ETS\TUM\Medical AR\MedicalAR\RGBDII\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\Application\Utils\ImageUtils.cpp src\Application\main.cpp
+         Skipping... (no relevant changes detected)
          main.cpp
+         ImageUtils.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Benoit\Desktop\ETS\TUM\Medical AR\Exercise\medicalAR-RGBDII\Debug\RGBDII.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x86\vc12\lib opencv_world300d.lib opencv_ts300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Benoit\Desktop\ETS\TUM\Medical AR\Exercise\medicalAR-RGBDII\Debug\RGBDII.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Benoit\Desktop\ETS\TUM\Medical AR\Exercise\medicalAR-RGBDII\Debug\RGBDII.lib" /MACHINE:X86 Debug\ImageUtils.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Benoit\Desktop\ETS\TUM\Medical AR\MedicalAR\Debug\MedicalAR.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x86\vc12\lib opencv_world300d.lib opencv_ts300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Benoit\Desktop\ETS\TUM\Medical AR\MedicalAR\Debug\MedicalAR.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Benoit\Desktop\ETS\TUM\Medical AR\MedicalAR\Debug\MedicalAR.lib" /MACHINE:X86 Debug\ImageUtils.obj
          Debug\main.obj
-         RGBDII.vcxproj -> C:\Users\Benoit\Desktop\ETS\TUM\Medical AR\Exercise\medicalAR-RGBDII\Debug\RGBDII.exe
-     1>Done Building Project "C:\Users\Benoit\Desktop\ETS\TUM\Medical AR\Exercise\medicalAR-RGBDII\RGBDII\RGBDII.vcxproj" (Build target(s)).
+         RGBDII.vcxproj -> C:\Users\Benoit\Desktop\ETS\TUM\Medical AR\MedicalAR\Debug\MedicalAR.exe
+     1>Done Building Project "C:\Users\Benoit\Desktop\ETS\TUM\Medical AR\MedicalAR\RGBDII\RGBDII.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.97
+Time Elapsed 00:00:00.41
