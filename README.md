@@ -1,5 +1,12 @@
 #Medical Augmented Reality <img src="/augmented-reality.png" width="60" vertical-align="bottom">
 
+##Mean Depth Calculation From Multiple Images
+#### Input Images Example:
+<img src="/Repo_Images/video102.png" width="150" vertical-align="bottom">
+<img src="/Repo_Images/video103.png" width="150" vertical-align="bottom">
+#### Calculated Scaled Mean Depth:
+<img src="/Repo_Images/mean_depth.png" width="150" vertical-align="bottom">
+
 #### How to contribute ?
 - [X] Create a branch by feature and/or bug fix
 - [X] Get the code
