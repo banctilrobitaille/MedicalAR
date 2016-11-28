@@ -1,11 +1,22 @@
 #Medical Augmented Reality <img src="/augmented-reality.png" width="60" vertical-align="bottom">
 
-##Mean Depth Calculation From Multiple Images
->#### Input Images Example:
+###Mean Depth Calculation From Multiple Images
+>#### Input Images Examples:
 ><img src="/Repo_Images/video102.png" width="150" vertical-align="bottom">
 ><img src="/Repo_Images/video103.png" width="150" vertical-align="bottom">
 >#### Calculated Scaled Mean Depth:
 ><img src="/Repo_Images/mean_depth.PNG" width="150" vertical-align="bottom">
+
+###Foreground object segmentation (surgeon's hands):
+>#### Input Images Examples:
+><img src="/Repo_Images/video252.png" width="150" vertical-align="bottom">
+><img src="/Repo_Images/video253.png" width="150" vertical-align="bottom">
+><img src="/Repo_Images/video254.png" width="150" vertical-align="bottom">
+>#### Segmented Outputs Examples:
+><img src="/Repo_Images/mask150.png" width="150" vertical-align="bottom">
+><img src="/Repo_Images/mask151.png" width="151" vertical-align="bottom">
+><img src="/Repo_Images/mask152.png" width="152" vertical-align="bottom">
+
 
 #### How to contribute ?
 - [X] Create a branch by feature and/or bug fix
