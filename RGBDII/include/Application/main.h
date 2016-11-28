@@ -10,10 +10,10 @@
 #include "Application\Utils\ImageUtils.h"
 #include "Application\main.h"
 
-const std::string IMAGES_PATH = "..\\Images\\";
-const std::string INIT_DEPTH_IMAGES_PATH = "..\\init\\depth\\";
-const std::string JPG_EXTENSION = ".jpg";
-const std::string PNG_EXTENSION = ".png";
+const std::string IMAGES_DIRECTORY = "..\\Images\\";
+const char* INIT_DEPTH_IMAGES_DIRECTORY = "..\\init\\depth\\";
 const std::string DEPTH = "depth";
+const std::string XRAY = "xray";
+const int ESCAPE = 27;
 
 #endif

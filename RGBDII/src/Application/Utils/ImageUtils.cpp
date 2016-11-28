@@ -26,3 +26,23 @@ cv::Mat ImageUtils::scaleDepthImageForDisplay(cv::Mat depthImage){
 	cv::applyColorMap(adjMap, adjMap, cv::COLORMAP_JET);
 	return adjMap;
 }
+
+std::vector<cv::Mat> ImageUtils::createImageVectorFromContentOf(const char* directoryPath){
+	DIR *directory;
+	struct dirent *file;
+	std::vector<cv::Mat> imageVector;
+
+	if ((directory = opendir(directoryPath)) != NULL) {
+		while ((file = readdir(directory)) != NULL) {
+			if (ImageUtils::isImageFile(file->d_name)){
+				imageVector.push_back(cv::imread(std::string(directoryPath) + file->d_name, CV_LOAD_IMAGE_UNCHANGED));
+			}
+		}
+		closedir(directory);
+	}
+	return imageVector;
+}
+
+bool ImageUtils::isImageFile(std::string fileName){
+	return fileName.find(JPG_EXTENSION) != std::string::npos || fileName.find(PNG_EXTENSION) != std::string::npos;
+}
