@@ -43,6 +43,39 @@ std::vector<cv::Mat> ImageUtils::createImageVectorFromContentOf(const char* dire
 	return imageVector;
 }
 
+std::vector<std::string> ImageUtils::getImageFilesNameFrom(const char* directoryPath){
+	DIR *directory;
+	struct dirent *file;
+	std::vector<std::string> imageFilesPath;
+
+	if ((directory = opendir(directoryPath)) != NULL) {
+		while ((file = readdir(directory)) != NULL) {
+			if (ImageUtils::isImageFile(file->d_name)){
+				imageFilesPath.push_back(std::string(directoryPath) + file->d_name);
+			}
+		}
+		closedir(directory);
+	}
+	return imageFilesPath;
+}
+
+cv::Mat ImageUtils::createMaskFromImageWithMargin(cv::Mat image, cv::Mat depthImage, cv::Mat meanDepth, int margin){
+	cv::Size imageSize = image.size();
+	cv::Mat mask = cv::Mat::zeros(imageSize.height, imageSize.width, CV_64F);
+	
+	for (int row = 0; row < imageSize.height; row++){
+		for (int col = 0; col < imageSize.width;col++){
+			double threshold = meanDepth.at<double>(row, col);
+			if (depthImage.at<uint16_t>(row, col) >(threshold + margin) || depthImage.at<uint16_t>(row, col) < (threshold - margin)){
+				mask.at<double>(row, col) = WHITE;
+			}else{
+				mask.at<double>(row, col) = BLACK;
+			}
+		}
+	}
+	return mask;
+}
+
 bool ImageUtils::isImageFile(std::string fileName){
 	return fileName.find(JPG_EXTENSION) != std::string::npos || fileName.find(PNG_EXTENSION) != std::string::npos;
 }
