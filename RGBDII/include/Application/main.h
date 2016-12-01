@@ -18,6 +18,7 @@ const char* INIT_DEPTH_IMAGES_DIRECTORY = "..\\init\\depth\\";
 const char* VIDEO_IMAGES_DEPTH_DIRECTORY = "..\\newimages\\depth\\";
 const char* VIDEO_IMAGES_DIRECTORY = "..\\newimages\\video\\";
 const char* MASK_IMAGES_DIRECTORY = "..\\newimages\\mask\\";
+const char* OVERLAY_IMAGES_DIRECTORY = "..\\newimages\\overlay\\";
 const int BEST_QUALITY = 0;
 const int ESCAPE = 27;
 
