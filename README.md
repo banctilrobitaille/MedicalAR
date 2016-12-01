@@ -7,7 +7,7 @@
 >#### Calculated Scaled Mean Depth:
 ><img src="/Repo_Images/mean_depth.PNG" width="150" vertical-align="bottom">
 
-###Foreground object segmentation (surgeon's hands):
+###Foreground Object Segmentation (surgeon's hands)
 >#### Input Images Examples:
 ><img src="/Repo_Images/video252.png" width="150" vertical-align="bottom">
 ><img src="/Repo_Images/video253.png" width="150" vertical-align="bottom">
@@ -17,6 +17,15 @@
 ><img src="/Repo_Images/mask151.png" width="151" vertical-align="bottom">
 ><img src="/Repo_Images/mask152.png" width="152" vertical-align="bottom">
 
+###XRay Overlay Creation
+>####XRay Image Input:
+><img src="/Repo_Images/Xray.png" width="150" vertical-align="bottom">
+>####Video Images Input Examples:
+><img src="/Repo_Images/video211.png" width="150" vertical-align="bottom">
+><img src="/Repo_Images/video217.png" width="150" vertical-align="bottom">
+>#### Video Images Output With Overlay Examples:
+><img src="/Repo_Images/overlay109.png" width="150" vertical-align="bottom">
+><img src="/Repo_Images/overlay115.png" width="150" vertical-align="bottom">
 
 #### How to contribute ?
 - [X] Create a branch by feature and/or bug fix
