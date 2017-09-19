@@ -18,9 +18,9 @@
 ><img src="/Repo_Images/mask152.png" width="152" vertical-align="bottom">
 
 ### XRay Overlay Creation
->####XRay Image Input:
+>#### XRay Image Input:
 ><img src="/Repo_Images/Xray.png" width="150" vertical-align="bottom">
->####Video Images Input Examples:
+>#### Video Images Input Examples:
 ><img src="/Repo_Images/video211.png" width="150" vertical-align="bottom">
 ><img src="/Repo_Images/video217.png" width="150" vertical-align="bottom">
 >#### Video Images Output With Overlay Examples:
@@ -38,18 +38,18 @@
 ##### Feature branch
 > feature/ [Short feature description] [Issue number]
 
-#####Bug branch
+##### Bug branch
 > fix/ [Short fix description] [Issue number]
 
 #### Commits syntax:
 
-#####Adding code:
+##### Adding code:
 > \+ Added [Short Description] [Issue Number]
 
-#####Deleting code:
+##### Deleting code:
 > \- Deleted [Short Description] [Issue Number]
 
-#####Modifying code:
+##### Modifying code:
 > \* Changed [Short Description] [Issue Number]
 
 
