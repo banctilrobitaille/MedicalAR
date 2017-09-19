@@ -12,6 +12,7 @@
 ><img src="/Repo_Images/video252.png" width="150" vertical-align="bottom">
 ><img src="/Repo_Images/video253.png" width="150" vertical-align="bottom">
 ><img src="/Repo_Images/video254.png" width="150" vertical-align="bottom">
+
 >#### Segmented Outputs Examples:
 ><img src="/Repo_Images/mask150.png" width="150" vertical-align="bottom">
 ><img src="/Repo_Images/mask151.png" width="151" vertical-align="bottom">
@@ -20,9 +21,11 @@
 ### XRay Overlay Creation
 >#### XRay Image Input:
 ><img src="/Repo_Images/Xray.png" width="150" vertical-align="bottom">
+
 >#### Video Images Input Examples:
 ><img src="/Repo_Images/video211.png" width="150" vertical-align="bottom">
 ><img src="/Repo_Images/video217.png" width="150" vertical-align="bottom">
+
 >#### Video Images Output With Overlay Examples:
 ><img src="/Repo_Images/overlay109.png" width="150" vertical-align="bottom">
 ><img src="/Repo_Images/overlay115.png" width="150" vertical-align="bottom">
