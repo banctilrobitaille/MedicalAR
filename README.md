@@ -1,4 +1,5 @@
 # Medical Augmented Reality <img src="/augmented-reality.png" width="60" vertical-align="bottom">
+> This project as been developped as part of the Medical augmented reality (IN2293) class at TUM (Technische Universität München). The goal of the project was to introduce an xray image within a given set of images of a surgeon's hand. All the images had been taken with a Microsoft kinect, thus the depth of each image was known. Overlay and blending were used to include the xray between the surgeon's hand and the fake patient body represented by a box. The results and the steps are presented below.
 
 ### Mean Depth Calculation From Multiple Images
 >#### Input Images Examples:
